@@ -1,0 +1,12 @@
+/react_spa/node_modules
+/express_api/node_modules
+/django_api/vendor
+__pycache__/
+/flask_api/vendor
+__pycache__/
+/rails_api/vendor
+/rails_api/.bundle
+/sinatra_api/vendor
+/sinatra_api/.bundle
+/.local-compose/*
+!/.local-compose/config

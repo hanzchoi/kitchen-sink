@@ -1,0 +1,26 @@
+version: 0.0.2
+services:
+    django_api:
+        url-path-prefix: /django/
+        platform: django
+        port: 10502
+    express_api:
+        url-path-prefix: /express/
+        platform: express
+        port: 10501
+    flask_api:
+        url-path-prefix: /flask/
+        platform: flask
+        port: 10503
+    rails_api:
+        url-path-prefix: /rails/
+        platform: rails
+        port: 10504
+    react_spa:
+        url-path-prefix: /
+        platform: react
+        port: 10500
+    sinatra_api:
+        url-path-prefix: /sinatra/
+        platform: sinatra
+        port: 10505

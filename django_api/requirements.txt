@@ -1,0 +1,6 @@
+django==2.2.2
+dj-database-url==0.5.0
+
+# Don't use the source distribution, `psycopg2`, it requires the postgres
+# development package and gcc.
+psycopg2-binary==2.8.3
