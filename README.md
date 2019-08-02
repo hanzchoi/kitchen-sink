@@ -9,10 +9,11 @@ This repository shows the experience that a new developer will have when startin
 
 To see the demo:
 1. Install `local-compose`, follow the directions for your platform at: https://local-compose.clerk.dev
-2. `git clone https://github.com/clerkinc/kitchen-sink.git`
-3. `cd kitchen-sink`
-4. `local-compose start` (This will take a few minutes as it installs new, isolated versions of postgres, javascript, ruby, and python.)
-5. Navigate to http://localhost:3000
+2. On OSx only: `brew install readline postgresql`
+3. `git clone https://github.com/clerkinc/kitchen-sink.git`
+4. `cd kitchen-sink`
+5. `local-compose start` (This will take a few minutes as it installs new, isolated versions of postgres, javascript, ruby, and python.)
+6. Navigate to http://localhost:3000
 
 If the demo works correctly, you should see a React intro page with 5 iframes below, one for each backend framework.  For Rails and Django you should see the Rails and Django start pages.  For express, flask, and sinatra you should see a short statement listing the postgres version, which serves as evidence you succesfully connected to postgres.
 
